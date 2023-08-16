@@ -1,30 +1,27 @@
-# نصب کننده آسان MTProtoProxy
-<h4>یک اسکریپت بدون باگ برای نصب MTProtoProxy بر روی Centos یا Ubuntu</h4>
+# MTProtoProxy Easy Installer
+<h4>A bug free script to install MTProtoProxy on Centos or Ubuntu</h4>
 
 
- نرم افزار <a href="https://uploadb.me/direct/cjlbd3c6vuwm/CC_%208.0l.rar.html" target="_blank"> PUTTY </a> را دانلود کنید
+# Why should we use this script?
+1. Generate secret and port randomly
+2. Automatic configuration of firewall server
+3. The easiest proxy installer for Persian speakers
+4. Supports Centos 7/8 or Ubuntu 18 or later and Debian 10 or later
+5. Configure NTP automatically
+6. Change port, TAG, secret, remove proxy, etc. after installing proxy
 
+# Install the official script
+<h3>Installing the script on the server</h3>
 
-# چرا باید از این اسکریپت استفاده بکنیم؟
-1. تولید secret و port به صورت تصادفی
-2. پیکر بندی خودکار فایر وال سرور
-3. آسان ترین نصب کننده پروکسی برای فارسی زبانان
-4. از Centos 7/8 یا Ubuntu 18 یا جدیدتر و Debian 10 یا بالاتر پشتیبانی می کند
-5. NTP را به صورت خودکار پیکربندی کنید
-6. تغییر port، TAG، secret، حذف پروکسی و .... بعد از نصب پروکسی
-
-# نصب اسکریپت رسمی
-<h3>نصب اسکریپت بر روی سرور</h3>
-
-روی سرور خود اجرا کنید
+Run on your server
 
 <pre>curl -o MTProtoProxyeasyInstall.sh -L bit.ly/GithubSalaRNd && bash MTProtoProxyeasyInstall.sh</pre>
 
-چون تمامی مقادیر پیش فرض در نظر گرفته شده نیاز به هیچ اقدام دیگری نیست و کافیست صبر کنید تا کانفینگ پروکسی بر روی سرور شما انجام بشه و پس از نصب اسکریپت لینک پروکسی خود را مشاهده کنید.
+Because all the default values are considered, no other action is needed and you just have to wait until the proxy configuration is done on your server and after installing the script, see your proxy link.
 
-<h4>چند نفر میتوانند به پروکسی متصل بشن؟</h4>
+<h4>How many people can connect to the proxy?</h4>
 
- می تواند بیش از 10000 نفر را روی یک CPU مدرن انجام دهد. قدرت cpu بین افراد متصل تقسیم خواهد شد. افراد را بیشتر از تعداد رشته های CPU خود تولید نکنید چرا که ممکنه سرور شما از دسترس خارج شود.
-به طور مثال یک سرور که cpu 2 هسته ای هست حدودا 20000 نفر را میتواند وصل نگه دارد!!!
+It can do over 10,000 on a modern CPU. cpu power will be shared between connected people. Do not generate more people than your CPU threads because your server may become unavailable.
+For example, a server with a 2-core cpu can keep about 20,000 people connected!!!
 ##
 Thanks to <a href="https://github.com/TelegramMessenger/MTProxy" target="_blank"> MTProxy Admin Bot </a> creator of the Proxy you can now install the proxy with a script.
