@@ -15,7 +15,7 @@
 
 Run on your server
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/ach1992/Easy-Installer-MTProto-Proxy/main/MTProtoProxyeasyInstall.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/ach1992/Easy-Installer-MTProto-Proxy/main/Install.sh)
 ```
 Because all the default values are considered, no other action is needed and you just have to wait until the proxy configuration is done on your server and after installing the script, see your proxy link.
 
