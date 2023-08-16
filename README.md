@@ -14,9 +14,9 @@
 <h3>Installing the script on the server</h3>
 
 Run on your server
-
-<pre>curl -o MTProtoProxyeasyInstall.sh -L bit.ly/GithubSalaRNd && bash MTProtoProxyeasyInstall.sh</pre>
-
+```
+bash <(curl -Ls https://raw.githubusercontent.com/ach1992/Easy-Installer-MTProto-Proxy/main/MTProtoProxyeasyInstall.sh)
+```
 Because all the default values are considered, no other action is needed and you just have to wait until the proxy configuration is done on your server and after installing the script, see your proxy link.
 
 <h4>How many people can connect to the proxy?</h4>
